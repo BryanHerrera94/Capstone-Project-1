@@ -4,3 +4,28 @@ img {
     height: 300px;
     object-fit: cover;
 }
+
+img {
+    display: block; /* Ensures the image is centered as a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+    text-align: center; /* Centers the image vertically */
+    opacity: 0.9;
+    border: 5px solid #555;
+  }
+
+
+
+
+
+body {
+    background-image: url('images/GroupCenter.jpg');
+    background-size: cover;
+  }
+
+  p {
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  }
+
+
+  

@@ -20,9 +20,20 @@ img {
 body {
   background-image: url('images/GroupCenter.jpg');
   background-size: cover;
+  
 }
 
 p {
-  color: white;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  color: rgb(250, 240, 240);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.877);
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.text-container {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #000000;
 }

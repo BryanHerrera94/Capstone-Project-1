@@ -24,7 +24,9 @@
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="images/MacLogo.png" alt="BrandLogo"></a>
+      <a class="navbar-brand" href="images/MacLogo.png">
+        <img src="images/MacLogo.png" class="img-fluid" alt="...">
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -37,15 +39,21 @@
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="index.html">Home </a></li>
               <li><a class="dropdown-item" href="checkout.html">Check Out</a></li>
-             
-              
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Product.html"><i class="bi bi-grid-3x3-gap"></i> Products</a>
+            <a class="nav-link" href="Product.html">
+              <i class="bi bi-grid-3x3-gap"></i> Products
+            </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Login.html"><i class="bi bi-box-arrow-in-right"></i> Login</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLogin" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-box-arrow-in-right"></i> Login
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownLogin">
+              <li><a class="dropdown-item" href="Login.html">Login</a></li>
+              <li><a class="dropdown-item" href="Signup.html">Sign Up</a></li>
+            </ul>
           </li>
         </ul>
       </div>

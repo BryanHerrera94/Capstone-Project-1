@@ -4,8 +4,8 @@ body {
   }
 
   p {
-    color: white;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px rgba(255, 250, 250, 0.5);
   }
 
   .card-deck {
@@ -21,6 +21,7 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     max-width: 18rem;
+    overflow: hidden;
   }
   
   .card:hover {
@@ -54,5 +55,12 @@ body {
     background-color: #0069d9;
     border-color: #0062cc;
   }
+
+  
+/*Logo in the Nav Bar*/
+img[src='images/MacLogo.png'] {
+  height: 70px;
+ }
+ 
 
   

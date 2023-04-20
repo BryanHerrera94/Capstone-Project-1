@@ -1,11 +1,11 @@
-img {
+.logo-img {
   float: column;
   width:  300px;
   height: 300px;
   object-fit: cover;
 }
 
-img {
+.logo-img {
   display: block; /* Ensures the image is centered as a block element */
   margin: 0 auto; /* Centers the image horizontally */
   text-align: center; /* Centers the image vertically */
@@ -24,16 +24,15 @@ body {
 }
 
 p {
-  color: rgb(250, 240, 240);
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.877);
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px 1px rgba(253, 249, 249, 0.877);
   font-size: 22px;
   font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.text-container {
-  width: 80%;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #000000;
+
+/*Logo in the Nav Bar*/
+img[src='images/MacLogo.png'] {
+ height: 70px;
 }

@@ -112,3 +112,22 @@ html, body {
 }
 
 
+/* Bulleted List*/
+.container {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.container h2 {
+  margin-top: 0;
+}
+
+.container ul {
+  list-style: disc;
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+
+

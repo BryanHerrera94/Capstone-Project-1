@@ -63,4 +63,44 @@ img[src='images/MacLogo.png'] {
  }
  
 
+ /*This is for my Footer*/
+ html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -60px; 
+}
+
+.site-footer {
+  height: 60px; 
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+  border-top: 1px solid #777;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+.site-footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.site-footer a:hover {
+  color: #f0ad4e;
+}
+
   

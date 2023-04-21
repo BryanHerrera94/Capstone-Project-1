@@ -65,5 +65,50 @@ img[src='images/MacLogo.png'] {
 
 .navbar-gif {
   height: 150px;
+  display: block;
+  margin: 0 auto;
   
 }
+
+
+/*Footer style*/
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -60px; /* adjust this value to match your footer's height */
+}
+
+.site-footer {
+  height: 60px; /* adjust this value to match your footer's height */
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  border-top: 1px solid #777;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+.site-footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.site-footer a:hover {
+  color: #f0ad4e;
+}
+
+
